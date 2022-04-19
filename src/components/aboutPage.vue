@@ -23,14 +23,11 @@ XCar 的使命是，用科技为人类创造更便捷愉悦的出行生活。</p
         </div>
 
     </div>
-    <footerPage />
 </div>
 </template>
 
 <script>
-import footerPage from './footerPage.vue'
 export default {
-    components: { footerPage },
     name: 'aboutPage',
     data() {
         return {

@@ -21,9 +21,9 @@
 
 <script>
 import threedView from "./threedView.vue";
-import footerPage from "./footerPage.vue";
+
 export default {
-  components: { threedView, footerPage },
+  components: { threedView },
   name: "homePage",
     data: () => ({
       show3: false

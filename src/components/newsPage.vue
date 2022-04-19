@@ -26,19 +26,16 @@
             <hr />
         </div>
                 <div>
-            <h3>达到国际权威标准！小鹏汽车通过ISO 27001与ISO 27701双认证</h3>
+            <h3>达到国际权威标准！XCar 汽车通过ISO 27001与ISO 27701双认证</h3>
             <el-tag>业绩表现</el-tag>
             <i class="el-icon-time"> 2076-11-28</i>
         </div>
     </div>
-    <footerPage />
   </div>
 </template>
 
 <script>
-import footerPage from "./footerPage.vue";
 export default {
-    components: { footerPage },
   name: "newsPage",
   data() {
     return {

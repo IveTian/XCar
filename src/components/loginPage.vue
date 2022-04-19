@@ -16,14 +16,11 @@
       </el-form-item>
     </el-form>
   </div>
-  <footerPage />
   </div>
 </template>
 
 <script>
-import footerPage from "./footerPage.vue";
 export default {
-  components: { footerPage },
   name: "loginPage",
   data() {
     return {
